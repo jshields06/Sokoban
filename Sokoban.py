@@ -1,3 +1,7 @@
+""" Sokoban is a game in which the player's goal is to move all boxes onto a target until no targets are left.
+In this case, "o" are empty targets, "!" are boxes, and "." are fulfilled targets.
+You can move by entering a singular letter "w", "a", "s", or "d". Use "q" to quit and space (" ") to reset the board.
+"""
 from game_settings import *
 import copy
 start_board = copy.deepcopy(board)
